@@ -131,6 +131,7 @@
     width: 70%;
     height: 3.2rem;
     margin: 0;
+    border-radius: 20px;
 }
 
 #btn2 {
@@ -156,11 +157,11 @@
 }
 
 .container_input {
-    margin-top: 3rem;
+    margin-top: 3rem;   
 }
 
 .container_input .input{
-    width: 350px; /* Ancho del div */
+    width: 80%; /* Ancho del div */
     margin: 0 auto;
 }
 
@@ -176,7 +177,7 @@
 .buttons_edit{
     justify-content: center;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .buttons_edit .btn{
