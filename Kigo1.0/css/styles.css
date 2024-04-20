@@ -1,0 +1,46 @@
+
+.kigo-container {
+    margin-top: 20px;
+    background-color: #FF5A00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+strong{
+    color: #FF5A00;
+}
+.car-contact{
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #FF5A00;
+    width: 327px;
+    border-radius: 10px;
+}
+.car-contact:hover,
+.car-contact:active {
+    background-color: #ff8533; /* Cambiar el color de fondo al pasar el cursor o hacer clic */
+}
+.car-contact strong,.car-contact hr{
+    color: #ffff;
+}
+.container-datosP{
+width: 327px;
+}
+.container-datosP hr{
+    color: #FF5A00;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boton{
+    background-color: #FF5A00;
+    color: white;
+    width: 295px;
+    height: 39px;
+    border-radius: 50px;
+    border: none;
+}
+.boton:hover{
+    background-color: #943b0b;
+}
