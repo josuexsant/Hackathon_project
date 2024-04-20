@@ -1,0 +1,19 @@
+:root{
+    --font-family:
+    --font-size-big: 3rem;
+    --font-size-small: 1.2rem;
+    --color: #FF5A00;
+}
+
+
+.Title{
+    align-content: center;
+}
+
+.Title .tokenAuthentication{
+    color: #FF5A00;
+}
+
+.container{
+    background-color: #FF5A00;
+}
