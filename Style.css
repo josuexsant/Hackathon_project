@@ -109,11 +109,12 @@
 }
 
 .buttons {
-    position: relative; /* Asegura que los botones se posicionen relativamente al contenedor */
-    margin-top: 5rem;
+    justify-content: center;
+    position: relative;
+    margin-top: 4rem;
 }
 
-.btn {
+.buttons .btn {
     position: absolute; /* Los botones se posicionan de forma absoluta */
     left: 50%; /* Los botones estarán centrados horizontalmente */
     transform: translateX(-50%); /* Centra los botones horizontalmente */
@@ -126,7 +127,6 @@
     width: 70%;
     height: 3.2rem;
     margin: 0;
-    
 }
 
 #btn2 {
