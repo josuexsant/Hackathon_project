@@ -10,12 +10,10 @@
     justify-content: center;
     text-align: center;
     margin-top: 2.5rem;
-    display: flex;
 }
 
 .Title .TokenAuthentication{
-    justify-content: center;
-    width: 50%;
+    width: 60%;
     color: #FF5A00;
     font-size: var(--font-size-big);
 }
@@ -87,31 +85,37 @@
 }
 
 .container .img .img-llave{
-    width: 300px;
+    width: 200px;
 }
 
 .text{
     justify-content: center;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 2.2rem;
 }
 
 .text .codigo{
-    margin-top: 3rem;
     display: flex;
     justify-content: center;
     position: absolute;
 }
 
+.text .text-codigo{
+    text-align: center;
+    font-size: 2rem;
+}
 
-.text .p{
-    font-size: 3rem;
+.text .text-advertencia{
+    text-align: center;
+    display: flex;
+    font-size: 1rem;
+    margin-top: 3rem;
 }
 
 .buttons {
     justify-content: center;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
 }
 
 .buttons .btn {
