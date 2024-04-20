@@ -47,20 +47,20 @@
 .adorno2{
     background-color: rgb(255, 255, 255);
     position: absolute;
-    width: 50px;
+    width: 30px;
     height: 50px;
     display: flex;
-    right: -5%;
+    right: 0%;
 }
 
 .adorno3{
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 40px;
-    height: 20px;
+    height: 30px;
     display: flex;
     left: 6%;
-    top: 140px;
+    top: 130px;
 }
 .adorno4{
     background-color: var(--color);
@@ -174,6 +174,32 @@
     position: relative;
     margin-top: 4rem;
 }
+
+.buttons_edit .btn{
+    position: absolute; /* Los botones se posicionan de forma absoluta */
+    left: 50%; /* Los botones estarán centrados horizontalmente */
+    transform: translateX(-50%); /* Centra los botones horizontalmente */
+    border: none;
+}
+
+#btn1-e{
+    top: 0; /* Posiciona el primer botón en la parte superior del contenedor */
+    background-color: #FF5A00;
+    width: 70%;
+    height: 3.2rem;
+    margin: 0;
+}
+
+#btn2-e {
+    top: 70px; /* Ajusta el espacio entre los botones si es necesario */
+    background-color: #fefefe;
+    width: 70%;
+    height: 3.2rem;
+    color: black;
+    margin: 0;
+}
+
+
 
 
 
